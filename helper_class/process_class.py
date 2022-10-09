@@ -1,23 +1,23 @@
 class Process:
     """
-        Process class definition
-        Methods:
-            set_response_time(): set process response time
-            set_turnaround_time(): set process turnaround time
-            set_waiting_time(): set process waiting time
-        Attributes:
-            number: int
-                ordinal number
-            burst: int
-                process execution time
-            arrival: int
-                time of process arrival
-            response_time: int
-                time in which the process gets the CPU for the first time
-            waiting_time: int
-                time spent in the queue
-            turnaround_time: int
-                time spent in the queue + burst time
+    Process class definition
+    Methods:
+        set_response_time(): set process response time
+        set_turnaround_time(): set process turnaround time
+        set_waiting_time(): set process waiting time
+    Attributes:
+        number: int
+            ordinal number
+        burst: int
+            process execution time
+        arrival: int
+            time of process arrival
+        response_time: int
+            time in which the process gets the CPU for the first time
+        waiting_time: int
+            time spent in the queue
+        turnaround_time: int
+            time spent in the queue + burst time
     """
     number = 0
     burst = 0
